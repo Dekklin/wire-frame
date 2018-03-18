@@ -1,0 +1,86 @@
+body, html {
+  margin:0;
+  padding:0;
+  height: 100%;
+  background: lightslategray;
+  }
+  body {
+    display: block;
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+  * {
+  box-sizing:border-box;
+  }
+  
+  header, footer {
+  background-color: #525252;
+  height:260;
+  width:100%;
+  display: flex;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    width: 100%;
+    margin-top: 50px;
+    border: 2px solid black;
+  }
+  nav ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  position: relative
+}
+ul#imgcard {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+nav ul li {
+  display:inline-block;
+  padding: 0 3.3em;
+  line-height:70px; 
+  position: relative;
+}
+li {
+  float: left;
+}
+nav {
+  border: 1px solid fff;
+  overflow:hidden;
+  }
+  
+  nav img {
+  float:left;
+  }
+  
+  nav ul {
+  float:left;
+  }
+  
+  main {
+  margin: 30px auto;
+  width: 960px;
+  }
+  
+  .card header {
+  height: 2em;
+  display: inline-block;
+  }
+div.card {
+  margin: 8px
+}
+div.card1 {
+  margin: 8px;
+  display: flex
+}
+header#bottomheader {
+display: block;
+}
